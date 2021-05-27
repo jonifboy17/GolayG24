@@ -9,8 +9,7 @@ import numpy as np
 '''                      Declaraciones                      '''
 
 # r es la palabra recibida de longitud 24
-r = np.array([1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0])
-# |
+
 
 A = np.array([
     [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -212,7 +211,3 @@ print("************* Ejemplo con más de 3 errores *************")
 codificacion = np.array([1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
 print(golay24(codificacion))
 print("")
-
-'''
-simbolo_fuente = np.array([1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1])
-'''
